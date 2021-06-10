@@ -1,0 +1,3 @@
+*.txt
+!programs_list.txt
+misc/

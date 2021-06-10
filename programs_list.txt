@@ -1,0 +1,49 @@
+Unix Lab Programs list
+
+PART-A
+
+1. Write a shell script to print all the prime numbers between m to n (m<n).
+
+2. Write a shell script to reverse a given string and check whether it is a palindrome.
+
+3. Write a shell script to find the sum of digits of a given number using loops .
+
+4. Write a shell script to implement 10 unix commands using case .
+
+5. Write a Shell script that displays list of all the files in the current directory to which the user has read, write and execute permissions?
+
+6. Write a shell script to copy a file
+
+i) copy file within current directory. ii)copy file between two directories.
+
+7. Write a Shell script to create 2 data files and compare them to display unique and common entries.
+
+8. Write awk script to find number of words, characters and lines in a file.
+
+9. Write a system program to demonstrate fork(),exec(),wait(),exit() system calls to execute ls –l command in the child process.
+
+10. Write a Menu driven program to demonstrate zombie process and orphan process.
+
+ 
+
+PART-B
+
+11. Write a shell script to find the factorial of a given number.
+
+12. Write a shell program to count the number of vowels in a given string using case.
+
+13. Create a file containing the following fields: Student No, student name, age, gender, height and weight. Print all the details in a neat format.
+
+14. Write shell script to find area and circumference of a circle.
+
+15. Write a shell program to print first “n” even and odd numbers.
+
+16. Write a shell program to demonstrate grep command.
+
+17. Shell script to compress and decompress a file using gzip and gunzip commands.
+
+18. Write a Shell program to display the digits which are in Odd Position in a given Number
+
+19. Write a shell program to print n Fibonacci series.
+
+20. Write a shell program to find gcd of any two numbers.
