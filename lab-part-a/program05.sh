@@ -5,8 +5,8 @@ read -r dir
 if [ -d "$dir" ]
 then
     cd "$dir" 
-    ls > f
-    exec < f
+    ls > temp_file
+    exec < temp_file
     while read -r line
     do 
         if [ -f "$line" ]
