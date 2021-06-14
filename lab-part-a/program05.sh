@@ -1,14 +1,20 @@
 #!/bin/bash
 
-echo "Files with read, write and execute permission for the user:"
-
-for f in *
-do
-	if [ -f "$f" ]
-	then
-		if [ -r "$f" ] && [ -w "$f" ] && [ -x "$f" ]
-		then
-			echo "$f"
-		fi
-	fi
-done
+echo "Enter directory name"
+read -r dir
+if [ -d "$dir" ]
+then
+    cd "$dir" 
+    ls > f
+    exec < f
+    while read -r line
+    do 
+        if [ -f "$line" ]
+        then
+            if [ -r "$line" ] && [ -w "$line" ] && [ -x "$line" ]
+            then
+                echo "$line has all permissions"
+            fi
+        fi
+    done
+fi
