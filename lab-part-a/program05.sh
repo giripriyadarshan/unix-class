@@ -4,7 +4,7 @@ echo "Enter directory name"
 read -r dir
 if [ -d "$dir" ]
 then
-    cd "$dir" 
+    cd "$dir" || exit
     ls > temp_file
     exec < temp_file
     while read -r line
