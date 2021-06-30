@@ -6,7 +6,7 @@ echo enter the file name
 read -r  fname
 
 echo "CASE SENSITIVE SEARCH"
-grep --no-ignore-case "UNix" "$fname"
+grep "UNix" "$fname"
 echo
 
 echo "COUNTING NUMBER OF MATCHES"
