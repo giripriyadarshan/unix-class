@@ -1,18 +1,9 @@
 #!/bin/bash
 
-echo "Enter a number"
-read -r n
+echo "Program name = $0"
+echo "number of arguments = $#"
+echo "all arguments = $*"
 
-len=${#n}
+echo "lines with patterns $1 in $2"
+grep "$1" "$2"
 
-echo "digits in odd position are"
-
-i=1
-while [ "$i" -le "$len" ]
-do
-	a=$(echo "$n" | cut -c "$i")
-	echo -n "$a "
-	i=$((i+2))
-done
-
-printf "\n"
