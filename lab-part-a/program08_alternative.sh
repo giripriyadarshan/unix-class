@@ -17,7 +17,7 @@ echo "number of words"
 sumOfSomething awk '{ print NF }' < "$file"
 
 echo "number of characters"
-sumOfSomething awk -F '' '{print NF-1}' < "$file"
+sumOfSomething awk -F '' '{print NF}' < "$file"
 
 echo "number of lines"
 awk 'END { print NR }' "$file"
